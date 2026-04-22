@@ -1,49 +1,51 @@
-# Data Science Assignment 1 — Superstore Sales Analysis
+# Data Science Assignment 2 — Gym Progress Analysis
 
 ## Overview
-An exploratory data analysis (EDA) of the Superstore dataset using Python and Pandas.
-The analysis covers descriptive statistics and answers key business questions
-related to sales, shipping, profitability, and customer behavior.
+A data cleaning and exploratory data analysis (EDA) project on a noisy gym progress
+dataset using Python. The analysis uncovers patterns in weight change, workout
+consistency, and the impact of exercise habits on weight loss.
 
 ## Dataset
-- **Name:** Superstore Sales Dataset
-- **Format:** `.xlsx`
-- **Size:** 9,994 rows × 21 columns
-- **Features:** Orders, customers, products, sales, profit, shipping, and regional data
+- **Name:** Gym Progress Dataset (Noisy)
+- **Format:** `.xls`
+- **Issues Addressed:** Missing values, duplicate records, and inconsistent data entries
+
+## Data Cleaning
+- ✅ Handled missing values
+- ✅ Removed duplicate records
+- ✅ Fixed inconsistent/invalid data entries
 
 ## Analysis Highlights
 
-### 📊 Descriptive Statistics
-- Mean, median, quartiles, and standard deviation of key sales metrics
+### ⚖️ Weight Change Over Time
+- Tracked and visualized how body weight evolved throughout the recorded period
 
-### 🚚 Shipping Speed by State
-- Identified which states receive the fastest and slowest shipping
+### 📅 Weekday Weight Loss Patterns
+- Identified which days of the week show the most significant weight loss trends
 
-### 💰 Most Profitable Products
-- Ranked products by total profit to identify top performers
+### 🏋️ Workout Consistency
+- Measured regularity of workout sessions and its effect on overall progress
 
-### 👥 Top Customers (Last 2 Years)
-- Filtered and ranked the highest-value customers based on recent purchases
-
-### 🗺️ Top 5 States by Sales Share
-- Calculated each state's contribution to total sales revenue
+### ⏱️ Workout Duration vs. Weight Loss
+- Explored the correlation between time spent working out and weight reduction
 
 ## Tools & Libraries
 | Tool | Purpose |
 |------|---------|
 | Python 3 | Core language |
-| Pandas | Data manipulation & analysis |
+| Pandas | Data cleaning & manipulation |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical plotting |
 | Jupyter Notebook | Interactive development |
-| OpenPyXL | Reading Excel files |
 
 ## How to Run
 1. Clone the repo:
 ```bash
-   git clone https://github.com/Ahmad-Omaryeh/Data_Science_Assignment1-.git
+   git clone https://github.com/Ahmad-Omaryeh/Data_Science_Assignment2.git
 ```
-2. Place `Superstore.xlsx` in the `archive/` folder
-3. Open `Assignment1 (3).ipynb` in Jupyter or VS Code
+2. Make sure `Gym_Progress_Dataset_noisy.xls` is in the project folder
+3. Open `Assignment2.ipynb` in Jupyter or VS Code
 4. Run all cells
 
 ## Author
-**Ahmad Omaryeh** — ID: 1221289 | Section: sec1
+**Ahmad Omaryeh** | Data Science Course
